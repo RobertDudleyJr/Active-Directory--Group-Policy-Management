@@ -1,20 +1,23 @@
 <p align="center">
-<img src="https://cdn.worldvectorlogo.com/logos/active-directory-1.svg" alt="osTicket logo"/>
+<img src="https://cdn.worldvectorlogo.com/logos/active-directory-1.svg" alt="Active Directory logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>AD-Group Policy Management - Lockout User Accounts </h1>
+This tutorial outlines the prerequisites and installation steps for configuring Group Policy to lock out a user's account after a set number of attempts. In this tutorial, we will be setting that number to 5 attempts .<br />
 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+<p>N/A</p>
 
 <h2>Environments and Technologies Used</h2>
 
+- Active Directory (Testing Results)
+- Group Policy Management
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+
 
 <h2>Operating Systems Used </h2>
 
@@ -22,19 +25,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Active Directory must be installed and configured correctly. 
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://drive.google.com/file/d/1AaVlLSAqXo764Mbsl2SIF3Oa9Tm1xnKU/view?usp=sharing" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open the Group Policy Management Console (GPMC). This can be done by searching gpmc.msc in the run window. 
+</p>
+<br />
+
+<p>
+<img src="(https://drive.google.com/file/d/1bykKE2Fjajrv8Mj1ea4VXhhM3kRBU0tA/view?usp=sharing)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Edit Default Domain Policy.
 </p>
 <br />
 
@@ -42,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Navigate to the Account Lockout Policy Settings.
 </p>
 <br />
 
@@ -50,6 +57,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Account Lockout Policy Settings.
 </p>
 <br />
