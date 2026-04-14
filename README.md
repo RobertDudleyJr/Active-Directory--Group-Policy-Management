@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation steps for configuring 
 
 - Active Directory must be installed and configured correctly. 
 
-<h2>Installation Steps</h2>
+<h2>Confirguration Steps</h2>
 
 <p>
 <img src="https://static.wixstatic.com/media/695ae6_e2769fe5184f40899325befe6dc2e52a~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AD-1.png" height="80%" width="80%" alt="Step1"/>
